@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
+  gem 'tzinfo'
+  gem 'tzinfo-data'
   gem 'jekyll'
   gem 'jekyll-feed'
   gem 'jekyll-sitemap'
